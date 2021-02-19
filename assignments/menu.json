@@ -1,74 +1,62 @@
 {
-    "menu": [
+    "appetizers": [
         {
-            "appetizers": [
-                {
-                    "name": "Fried Mushrooms",
-                    "ingredients": ["mushrooms", "flour", "egg", "ranch dressing"],
-                    "description": "Breaded baby portabello mushrooms, deep fried and served with ranch dressing for dipping."
-                },
-                {
-                    "name": "Caesar Salad",
-                    "ingredients": ["romaine lettuce", "parmesan cheese", "croutons", "black pepper", "caesar dressing"],
-                    "description": "Caesar salad with buttery croutons and caesar dressing."
-                }
-            ]
+            "name": "Fried Mushrooms",
+            "ingredients": ["mushrooms", "flour", "egg"],
+            "description": "Breaded baby portabello mushrooms served with ranch dressing for dipping."
         },
         {
-            "coldSandwiches": [
-                {
-                    "name": "Italian Club",
-                    "ingredients": ["sub roll", "genoa salami", "black forest ham", "pepperoni", "provolone cheese", "iceberg lettuce", "sliced tomato", "mayonnaise"],
-                    "description": "Italian club sandwich with lettuce, tomato, cheese, and mayo on a sub roll."
-                },
-                {
-                    "name": "Reuben",
-                    "ingredients": ["corned beef", "swiss cheese", "sauerkraut", "thousand island dressing", "rye bread"],
-                    "description": "Classic reuben sandwich on rye bread. "
-                }
-            ]
+            "name": "Caesar Salad",
+            "ingredients": ["romaine lettuce", "parmesan cheese", "croutons", "black pepper", "caesar dressing"],
+            "description": "Caesar salad with buttery croutons and caesar dressing."
+        }
+    ],
+    "coldSandwiches": [
+        {
+            "name": "Italian Club",
+            "ingredients": ["sub roll", "genoa salami", "black forest ham", "pepperoni", "provolone cheese", "iceberg lettuce", "sliced tomato", "mayo"],
+            "description": "Italian club sandwich with lettuce. tomato, cheese, and mayo on a sub roll."
         },
         {
-            "hotSandwiches": [
-                {
-                    "name": "Ham & Cheese Melt",
-                    "ingredients": ["black forest ham", "american cheese", "sub roll"],
-                    "description": "Sliced ham and melted cheese on a toasted sub roll."
-                },
-                {
-                    "name": "Steak and Cheese Melt",
-                    "ingredients": ["steak strips", "pepper jack cheese", "onions", "sub roll"],
-                    "description": "Grilled steak and onions with melted cheese on a toasted sub roll."
-                }
-            ]
+            "name": "Reuben",
+            "ingredients": ["corned beef", "swiss cheese", "sauerkraut", "thousand island dressing", "rye bread"],
+            "description": "Classic reuben sandwich on rye bread."
+        }
+    ],
+    "hotSandwiches": [
+        {
+            "name": "Ham & Cheese Melt",
+            "ingredients": ["black forest ham", "american cheese", "sub roll"],
+            "description": "Sliced ham and melted cheese on a toasted sub roll."
         },
         {
-            "desserts": [
-                {
-                    "name": "Lemonade Pie",
-                    "ingredients": ["graham cracker crust", "lemonade mix", "sweetened condensed milk", "whipped cream"],
-                    "description": "New twist on a lemon ice-box pie with a whipped cream topping."
-                },
-                {
-                    "name": "Apple Pie",
-                    "ingredients": ["sliced apples", "sugar", "cinnamon", "egg", "lemon juice", "pie crust"],
-                    "description": "Warm apple pie with a big scoop of vanilla ice cream on top!"
-                }
-            ]
+            "name": "Steak & Cheese Melt",
+            "ingredients": ["steak strips", "pepper jack cheese", "onions", "sub roll"],
+            "description": "Grilled steak and onions with melted cheese on a toasted sub roll."
+        }
+    ],
+    "desserts": [
+        {
+            "name": "Lemonade Pie",
+            "ingredients": ["graham cracker crust", "lemonade mix", "sweetened condensed milk", "whipped cream"],
+            "description": "New twist on a lemon ice-box pie with a whipped cream topping."
         },
         {
-            "drinks": [
-                {
-                    "name": "Chocolate Shake",
-                    "ingredients": ["chocolate ice cream", "milk", "whipped cream", "cherry"],
-                    "description": "Blended chocolate ice cream and milk topped with whipped cream and a cherry."
-                },
-                {
-                    "name": "Rootbeer Float",
-                    "ingredients": ["root beer", "vanilla ice cream", "whipped cream"],
-                    "description": "Root beer with vanilla ice cream topped with whipped cream."
-                }
-            ]
+            "name": "Apple Pie",
+            "ingredients": ["sliced apples", "sugar", "cinnamon", "egg", "lemon juice", "pie crust"],
+            "description": "Warm apple pie with a big scoop of vanilla ice cream on top!"
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Chocolate Shake",
+            "ingredients": ["chocolate ice cream", "milk", "whipped cream", "cherry"],
+            "description": "Blended chocolate ice cream and milk topped with whipped cream and a cherry."
+        },
+        {
+            "name": "Rootbeer Float",
+            "ingredients": ["rootbeer", "vanilla ice cream", "whipped cream"],
+            "description": "Rootbeer with vanilla ice cream topped with whipped cream."
         }
     ]
 }
