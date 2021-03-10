@@ -1,0 +1,15 @@
+body {
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+ul {
+    padding-bottom: 20px;
+}
+
+h1 {
+  color: magenta; 
+  text-align: center;
+}
