@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ToDo List</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body class="body">
+        <div class="formEnter">
+            <form name="todoForm">
+                <h1 id="createTodo">Todo List</h1>
+                <hr><hr>
+                <input class="todo" type="text" name="title" placeholder="Emter New Task">
+                <br><br>
+                <input class="todo" type="text" name="description" placeholder="Description">
+                <br><br>
+                <input class="todo" type="number" name="price" placeholder="Price $...">
+                <br><br>
+                <button type="submit" id="submit">Add Task</button>
+                <hr>
+            </form>
+            <div class="allTasks">
+                <ul></ul>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

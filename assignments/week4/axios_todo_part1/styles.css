@@ -1,0 +1,33 @@
+body {
+    background-color: grey;
+    margin: 5%;
+}
+
+h1 {
+    color: gold;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: 'Apple Chancery', cursive;
+    font-weight: 500;
+}
+
+#title {
+    font-family: 'Apple Chancery', cursive;
+}
+
+#description {
+    font-family: 'Apple Chancery', cursive;
+}
+
+#price {
+    font-family: 'Apple Chancery', cursive;
+}
+
+#imgUrl {
+    font-family: 'Apple Chancery', cursive;
+}
+
+#subBtn {
+    background-color: gold;
+    font-family: 'Apple Chancery', cursive;
+}
