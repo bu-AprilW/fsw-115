@@ -1,0 +1,74 @@
+#bodyA {
+    background-color: orchid;
+}
+
+#bodyB {
+    background-color: grey;
+}
+
+#rm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 385px;
+    height: 350px;
+}
+
+#adventureTime {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 385px;
+    height: 350px;
+}
+
+.headerA {
+    background-color: grey;
+    font-family: "Ink Free", Times, serif;
+    margin: 15px;
+}
+
+.headerB {
+    background-color: teal;
+    font-family: "Ink Free", Times, serif;
+}
+
+ #rmBtn {
+    background-color: gold;
+    color: grey;
+    padding: 5px 30px;
+    margin: 15px;
+    text-align: center;
+    font-weight: 600;
+    display: inline-block;
+}
+
+#adventureTimeBtn {
+    background-color: gold;
+    color: grey;
+    font-weight: 600;
+    display: inline-block;
+}
+
+
+
+#wrapper {
+    text-align: center;
+}
+
+h1 {
+    color: whitesmoke;
+    padding: 3%;
+    margin: 1%;
+    text-align: center;
+    font-family: "Ink Free", Times, serif;
+    text-decoration-line: underline;
+}
+
+h3 {
+    font-family: "Ink Free", Times, serif;
+}
+
+p {
+    text-align: center;
+}
