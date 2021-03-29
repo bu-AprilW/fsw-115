@@ -1,0 +1,107 @@
+#body {
+    background-color: grey;
+}
+
+#header {
+    background-color: orchid;
+    color: whitesmoke;
+    text-decoration-line: underline;
+    text-align: center;
+    padding: 50px;
+}
+
+#todoTitle {
+    font-family: "Ink Free", serif;
+}
+
+.todo-entry {
+    border: solid 1px black;
+    display: flex;
+    flex-flow: row;
+}
+
+.todo-entry .entry-cell {
+    flex: 1 1 auto;
+    background-color: orchid;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+#title  {
+    color: orchid;
+    border: solid 1px black;
+    height: 25px;
+    width: 150px;
+    font-family: "Ink Free", serif;
+    font-size: 12px;
+    box-shadow: 3px 3px 3px;
+    margin-top: 20px;
+    margin-left: 85px;
+}
+
+#description {
+    color: orchid;
+    border: solid 1px black;
+    height: 25px;
+    width: 150px;
+    font-family: "Ink Free", serif;
+    font-size: 12px;
+    box-shadow: 3px 3px 3px;
+    margin-top: 20px;
+    margin-left: 85px;
+}
+
+#price {
+    color: orchid;
+    border: solid 1px black;
+    height: 25px;
+    width: 150px;
+    font-family: "Ink Free", serif;
+    font-size: 12px;
+    box-shadow: 3px 3px 3px;
+    margin-top: 20px;
+    margin-left: 85px;
+}
+
+input {
+    color: orchid;
+    border: solid 1px black;
+    font-family: "Ink Free", serif;
+    font-size: 12px;
+    box-shadow: 3px 3px 3px;
+    margin-top: 35px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#submitBtn {
+    color: orchid;
+    background-color: grey;
+    border: solid 1px black;
+    text-align: center;
+    width: 60px;
+    height: 25px;
+    box-shadow: 3px 3px 3px;
+    margin-top: 20px;
+    margin-left: 95px;
+}
+
+#wrapper {
+    font-family: "Ink Free", serif;
+    display: flex;
+    flex-flow: row;
+    margin: 30px;
+}
+
+button {
+    color: orchid;
+    background-color: grey;
+    border: solid 1px black;
+    text-align: center;
+    font-family: "Ink Free",serif;
+    width: 60px;
+    height: 25px;
+    box-shadow: 3px 3px 3px;
+}
