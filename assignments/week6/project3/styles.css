@@ -1,0 +1,84 @@
+html {
+    text-align: center;
+    font-family: 'Ink Free', Times, serif;
+    background-color: greenyellow;
+}
+
+header {
+    font-size: 28px;
+    margin-bottom: 80px;
+    text-shadow: 5px 5px 5px lightblue;
+}
+
+.winky {
+    width: 350px;
+}
+
+.earth {
+    width: 350px;
+}
+
+#info {
+    margin-top: 100px;
+}
+
+.flipBird {
+    width: 300px;
+}
+
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 23px;
+    }
+
+    header {
+        font-size: 40px;
+    }
+
+    .winky {
+        width: 500px;
+    }
+
+    .earth {
+        width: 500px;
+    }
+
+    .bootyShake {
+        width: 350px;
+    }
+
+    #info {
+        margin-top: 100px;
+    }
+
+    .flipBird {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    
+    html {
+        font-size: 30px;
+    }
+
+    header {
+        font-size: 45px;
+    }
+
+    .winky {
+        width: 450px;
+    }
+
+    .earth {
+        width: 850px;
+    }
+
+    .bootyShake {
+        width: 500px;
+    }
+
+    .flipBird {
+        width: 450px;
+    }
+}
